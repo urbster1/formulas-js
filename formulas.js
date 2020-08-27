@@ -31,8 +31,7 @@ function generateFormulas(arr, data, start, end, index, combSize) {
 }
 
 function start() {
-  tempDiv +=
-    `<p><div class="rowHeader">1-note formula</div>\n<div class="row"><div class="cell">1</div>\n</div>\n</p>\n`;
+  tempDiv = `<p><div class="rowHeader">1-note formula</div>\n<div class="row"><div class="cell">1</div>\n</div>\n</p>\n`;
   // console.log(`1-note formula\n1`);
 
   for (let i = 1; i < 11; i++) {

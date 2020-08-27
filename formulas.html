@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100vw, initial-scale=1.0">
+    <title>Formulas Generator</title>
+    <style>
+        .rowHeader {
+            display: flex;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            font-weight: bold;
+        }
+        .row {
+            display: flex;
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+        .cell {
+            width: 2em;
+        }
+        .button {
+            border: 1px solid black;
+            background-color: lightgray;
+            border-radius: 6px;
+            padding: 5px;
+            font-weight: bold;
+            width: 20em;
+            text-align: center;
+        }
+        .button:hover {
+            cursor: pointer;
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+   <h1>Formula Generator</h1> 
+   <h2>Click below to generate all 2048 formulas as described by Wayne Krantz in the book <a href="https://waynekrantz.bandcamp.com/merch/theimprovisersos">The Improviser's OS v2</a></h2>
+   <div class="button" onclick="start()">
+       Generate Formulas
+   </div>
+   <div id="formulas"></div>
+   <script src="formulas.js"></script>
+</body>
+</html>
